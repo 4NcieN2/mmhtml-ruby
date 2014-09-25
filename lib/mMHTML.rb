@@ -3,11 +3,36 @@ require "mMHTML/version"
 require 'digest/md5'
 require "open-uri"
 
+# MIME-HTML parser
+# 
+# Example
+# file = MMHTML.parse( filename_or_uri )
+# 
+# retrieve elemets
+# 
+# file.search( content_type )
+# 	=> [element1, element2]
+# 
 module MMHTML
 	def self.parse filename_or_uri
 		Parser.new(filename_or_uri)
 	end
 	# MHTML element object
+	# 
+	# Example
+	# 	doc = MMHTML::Document.new("mime_html_element")
+	# 	doc.valid?
+	# 	doc.content
+	# 		=> "mime_html_content_without_header"
+	# 	doc.content_type
+	# 		=> "content_type"
+	# 	doc.content_transfer_encoding
+	# 		=> "content_transfer_encoding"
+	# 	doc.content_location
+	# 		=> "content_location"
+	# 	doc.normalize_content
+	# 		=> "cleaned_from_content_transfer_encoding_content"
+
 	class Document
 		attr_reader	:content_type, :content_transfer_encoding, :content_location, :content, :file
 
@@ -42,7 +67,15 @@ module MMHTML
 			@content
 		end
 	end
-	# MHTML parse
+	# MHTML parser
+	# Exapmle
+	# file = MMHTML::Parser.new( filename_or_uri )
+	# 
+	# Retrieve elements
+	# 
+	# file.search( content_type )
+	# 	=> [element1, element2]
+	# 
 	class Parser
 		attr_reader	:boundary, :params, :content, :elements, :file
 

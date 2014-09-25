@@ -10,8 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["romaslmd@gmail.com"]
   spec.summary       = %q{This gem provides usage of parsing MIME-HTML files}
   spec.description   = %q{Gives ability to work with mime-html files. Parse, retrieve components from file or uri}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/4NcieN2/mmhtml-ruby"
   spec.license       = "MIT"
+  spec.extra_rdoc_files = ["LICENSE.txt", "README.md"]
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -19,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rake", "~> 0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end
