@@ -1,6 +1,6 @@
 # MMHTML
 
-[![Code Climate](https://codeclimate.com/repos/5423ee94695680701b0201ce/badges/9ff9085c72fccc21e410/gpa.svg)](https://codeclimate.com/repos/5423ee94695680701b0201ce/feed)  [![Test Coverage](https://codeclimate.com/repos/5423ee94695680701b0201ce/badges/9ff9085c72fccc21e410/coverage.svg)](https://codeclimate.com/repos/5423ee94695680701b0201ce/feed)
+[![Code Climate](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/gpa.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)  [![Test Coverage](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/coverage.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)
 
 ## Installation
 
