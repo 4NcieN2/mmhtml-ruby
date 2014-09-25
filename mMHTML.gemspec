@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MMHTML::VERSION
   spec.authors       = ["Roman Solomud"]
   spec.email         = ["romaslmd@gmail.com"]
-  spec.summary       = %q{This gem provides usage of MIME-HTML files (generate or parse)}
-  spec.description   = %q{Gives ability to work with mime-html files. Parse, retrieve components or generate from file or uri}
+  spec.summary       = %q{This gem provides usage of parsing MIME-HTML files}
+  spec.description   = %q{Gives ability to work with mime-html files. Parse, retrieve components from file or uri}
   spec.homepage      = ""
   spec.license       = "MIT"
 
