@@ -1,6 +1,6 @@
 # MMHTML
 
-[![Code Climate](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/gpa.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)  [![Test Coverage](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/coverage.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)
+[![Code Climate](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/gpa.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)  [![Test Coverage](https://codeclimate.com/repos/5423f8e16956802797004876/badges/aff6f1456d4f222f45ca/coverage.svg)](https://codeclimate.com/repos/5423f8e16956802797004876/feed)  [![Build Status](https://travis-ci.org/4NcieN2/mmhtml-ruby.svg?branch=master)](https://travis-ci.org/4NcieN2/mmhtml-ruby)
 
 ## Installation
 
