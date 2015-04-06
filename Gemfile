@@ -5,5 +5,6 @@ gemspec
 
 # Test unit
 gem "rspec"
+gem 'rspec-its'
 
 gem "codeclimate-test-reporter", group: :test, require: nil
